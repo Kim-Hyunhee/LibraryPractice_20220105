@@ -23,7 +23,7 @@ class MainActivity : AppCompatActivity() {
 
 //        Glide 이용 => 웹의 이미지를 -> imgRecent에 반영하기
 
-        Glide.with(this).load("http://url.kr/doc6fx").into(imgRecent)
+        Glide.with(this).load("https://url.kr/doc6fx").into(imgRecent)
 
     }
 }
