@@ -19,7 +19,9 @@ class MainActivity : AppCompatActivity() {
 
 //            코드 구조가 틀린 건 아님 => 앱이 죽는 상황
 
-            val myUri = Uri.parse("tel:010-0000-0000")
+//            CALL (바로 전화 연결)에 대한 권한 획득 후에 전화 연결 진행행
+
+           val myUri = Uri.parse("tel:010-0000-0000")
             val myIntent = Intent( Intent.ACTION_CALL, myUri )
             startActivity(myIntent)
 
